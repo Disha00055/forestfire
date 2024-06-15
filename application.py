@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 application = Flask(__name__)
-app=application
+app=applicationclea
 
 # Load the Ridge model and StandardScaler
 ridge_model = pickle.load(open('models/ridge.pkl', 'rb'))
